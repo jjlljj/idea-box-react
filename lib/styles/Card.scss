@@ -1,6 +1,50 @@
 .idea-card {
-  margin: 20px;
-  padding: 60px 10px;
-  background: #f2f2f2;
-  border: 1px solid black;
+  border-bottom: 1px solid #d2d2d2;
+  margin: 20px auto;
+  padding: 0 10px;
+  max-width: 400px;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    h3 {
+      font-size: 28px;
+    }
+
+    button {
+      border-radius: 50%;
+      background-color: #d2d2d2;
+      height: 22px;
+      padding: 0;
+      width: 22px;
+    }
+
+    button:hover {
+      background-color: red;
+    }
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  .quality-container {
+    align-items: baseline;
+    justify-content: flex-start;
+
+    button {
+      margin-right: 10px;
+    }
+
+    .up-vote:hover {
+      background-color: #16A085;
+    }
+
+    .down-vote:hover {
+      background-color: yellow;
+    }
+  }
+
 }
