@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .main-container {
   display: flex;
+  overflow: hidden;
+  max-height: 100vh;
 }
 
 @media screen and (max-width: 800px) {
   .main-container {
     flex-wrap: wrap;
+    overflow-y: scroll;
   }
 
   .cards-container,
