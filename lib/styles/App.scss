@@ -1,3 +1,16 @@
 .main-container {
   display: flex;
 }
+
+@media screen and (max-width: 800px) {
+  .main-container {
+    flex-wrap: wrap;
+  }
+
+  .cards-container,
+  .form-container {
+    width: 100%;
+    min-height: 50vh;
+  }
+
+}
